@@ -1,0 +1,47 @@
+body{
+  background-image: linear-gradient(to right, white ,#cc00cc) ;
+}
+
+.App{
+  background-image :linear-gradient(white,#00e600);
+  height : 600px;
+  width : 400px;
+  box-shadow: 4px 4px green;
+  border-radius: 10px;
+  margin: 40px auto; 
+}
+
+#todoform input{
+  width : 200px;
+  height : 40px;
+  color :#003300;
+  font-size: 22px;
+  padding : 0px ,20px;
+  background-image: linear-gradient(to right, white ,#0040ff)  ;
+  margin : 30px;
+}
+
+#todoform input:focus ,#todoform button:focus{
+  outline: none;
+}
+
+#todoform button{
+  height : 50px;
+  width :80px;
+  border : 20px;
+  background-image: linear-gradient(to right, white ,#ffff00)  ;
+  color : black;
+  font-size: 22px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#new{
+  height : 30px;
+  width : 300px;
+  margin : 20px 50px;
+  background-image: linear-gradient(to right, white ,#ff0000)  ;
+  color : black;
+  font-size: 18px;
+  cursor: pointer;
+}
